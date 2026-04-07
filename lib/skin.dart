@@ -49,7 +49,7 @@ class MyHomePage extends StatelessWidget {
               padding: const EdgeInsets.all(20),
               child: BotaoAnimado(
                 imagem: 'assets/voltar.png',
-                largura: 200,
+                largura: 250,
                 onTap: () {
                   print('voltar clicado');
                   Navigator.push(
@@ -117,6 +117,10 @@ class MyHomePage extends StatelessWidget {
               InkWell(
                 onTap: () {
                   print("Azul");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                    builder: (context) => const MyApp(),));
                 },
                 child: Image.asset('assets/peixe2 lado.png', width: 170),
               ),
@@ -124,6 +128,10 @@ class MyHomePage extends StatelessWidget {
               InkWell(
                 onTap: () {
                   print("Azul");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                    builder: (context) => const MyApp(),));
                 },
                 child: Image.asset('assets/peixe3 lado.png', width: 170),
       ),
