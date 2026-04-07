@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   // Barra de volume
                   Positioned(
-                    top: MediaQuery.of(context).size.height * 0.16,
+                    top: MediaQuery.of(context).size.height * 0.10,
                     child: SizedBox(
                       width: 400,
                       child: Column(
@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             'Volume',
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 60,
+                              fontSize: 40,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -156,7 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             'Opacidade',
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 60,
+                              fontSize: 40,
                               fontWeight: FontWeight.bold,
                             ),
                           ),

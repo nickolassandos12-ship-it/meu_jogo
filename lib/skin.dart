@@ -49,7 +49,7 @@ class MyHomePage extends StatelessWidget {
               padding: const EdgeInsets.all(20),
               child: BotaoAnimado(
                 imagem: 'assets/voltar.png',
-                largura: 300,
+                largura: 200,
                 onTap: () {
                   print('voltar clicado');
                   Navigator.push(
@@ -67,10 +67,10 @@ class MyHomePage extends StatelessWidget {
           Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
-              padding: const EdgeInsets.all(80),
+              padding: const EdgeInsets.all(15),
               child: BotaoAnimado(
                 imagem: 'assets/selecionar.png',
-                largura: 400,
+                largura: 350,
 
                 onTap: () {
                   print('voltar clicado');
@@ -91,7 +91,7 @@ class MyHomePage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 25),
               child:Image.asset(
                 'assets/slots_skins.png',
-                width: 550,
+                width: 650,
                 
               )
                 )
@@ -111,21 +111,21 @@ class MyHomePage extends StatelessWidget {
                     MaterialPageRoute(
                     builder: (context) => const MyApp(),));
                 },
-                child: Image.asset('assets/peixe lado.png', width: 250),
+                child: Image.asset('assets/peixe lado.png', width: 170),
               ),
-              SizedBox(width: 30),
+              SizedBox(width: 18),
               InkWell(
                 onTap: () {
                   print("Azul");
                 },
-                child: Image.asset('assets/peixe2 lado.png', width: 250),
+                child: Image.asset('assets/peixe2 lado.png', width: 170),
               ),
-              SizedBox(width: 30,),
+              SizedBox(width: 18,),
               InkWell(
                 onTap: () {
                   print("Azul");
                 },
-                child: Image.asset('assets/peixe3 lado.png', width: 250),
+                child: Image.asset('assets/peixe3 lado.png', width: 170),
       ),
     ],
   ),
